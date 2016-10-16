@@ -13,12 +13,12 @@ Wenn du dir nicht sicher bist wie du mitwirken kannst, dann wird dir diese Seite
 Vielen Dank dafür schon mal im Vorraus!
 
 Rust ist eine kontinuierlich wachsende Menge von Unterprojekten
-die meisten davon werden auf von den [Rust Entwicklern][devs] in der [rust-lang Organisation auf GitHub][rust-lang] entwickelt.
+die meisten davon werden von den [Rust Entwicklern][devs] in der [rust-lang Organisation auf GitHub][rust-lang] entwickelt.
 Einsteiger interessieren sich sicherlich für für die Datei [CONTRIBUTING.md],
 welche die Einzelheiten zum Mitwirken an [rust-lang/rust] erläutert.
 
 Es gibt viele Möglichkeiten zum Erfolg von Rust beizutragen.
-Dieser Leitfaden konzentriert sich auf davon, gerade auch für Einsteiger:
+Dieser Leitfaden zeigt ein paar davon, gerade auch für Einsteiger:
 
 * [Probleme auffinden, untersuchen und fixen](contribute-bugs.html).
   Die Hauptaufgabe beim Betreuen großer und aktiver Projekten wie Rust.
@@ -32,10 +32,12 @@ Dieser Leitfaden konzentriert sich auf davon, gerade auch für Einsteiger:
   Rusts Nützlichkeit für bestimmte Aufgaben hängt stark von der Verfügbarkeit und Qualität von Bibliotheken ab.
 * [Sprache, Compiler und die Standardbibliothek](contribute-compiler.html).
   Sprachdesign, Feature-Implementierung, Performanceverbesserungen.
+* [Internationalisierung](contribute-translations.html).
+  Hilf uns die Rust-Liebe zu verbreiten indem du diese Seite in andere Sprachen übersetzt.
 
-Wenn du zusätzlichen Rat benötigst, Frage einfach in [#rust-internals] oder [internals.rust-lang.org].
+Wenn du zusätzlichen Rat benötigst, frage einfach in [#rust-internals] oder [internals.rust-lang.org].
 
-Wir sind besonders auf unseren freundlichen und höflichen Umgangston stolz, daher erwarten wir von allen mitwirkenden dass sie dem [Verhaltenskodex][coc] folgen.
+Wir sind besonders auf unseren freundlichen und höflichen Umgangston stolz, daher erwarten wir von allen Mitwirkenden dass sie dem [Verhaltenskodex][coc] folgen.
 Wenn den fragen dazu hast, bitte wende dich an das [community team].
 
 <!--
