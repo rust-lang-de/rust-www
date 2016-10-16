@@ -1,20 +1,23 @@
 ---
 layout: default
-title: Rust User Groups &middot; The Rust Programming Language
+title: Rust User Groups &middot; Die Programmiersprache Rust
 ---
 
-# Rust User Groups
+# Rust User Gruppen
 
-There are more than 50 Rust User Groups worldwide in over 20 countries
-with over 7,000 members. Rustaceans meet periodically in Rust User
-Groups.  Its a great introduction to the community and a great way to
-learn and socialize with other people with a similar interest.
-Meetings are usually informal and open to
-everyone. If you have started a new user group and wish to add it to
-this list, please contact the [Rust Community
-Team](./team.html#Community) or
-even better, open a pull request against
-[this website](https://github.com/rust-lang/rust-www/blob/master/en-US/user-groups.md).
+Es gibt über 50 Rust User Gruppen weltweit in über 20 Ländern,
+mit insgesamt über 7.000 Mitgliedern.
+Rustaceans treffen sich regelmäßig in Rust User Gruppen.
+Diese sind ein guter Weg
+um andere kennenzulernen,
+um Rust zu lernen und um mit und
+um Anschluss an die Community zu bekommen.
+Treffen sind für gewöhnlich sehr informell und für jede und jeden offen.
+Wenn du deine eigene Usergroup eröffnen möchtest
+und diese zu dieser Liste hinzugefügt werden soll, bitte melde dich beim
+[Rust Community Team](./team.html#Community) oder
+noch besser, öffne einen Pull Request für
+[diese Website](https://github.com/rust-lang/rust-www/blob/master/en-US/user-groups.md).
 
 ## Australia
 
