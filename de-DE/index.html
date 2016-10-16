@@ -1,22 +1,26 @@
 ---
 layout: basic
-title: The Rust Programming Language
+title: Die Programmiersprache Rust
 ---
 
     <div class="row install-row">
       <div class="col-md-8">
         <p class="pitch">
-          <b>Rust</b> is a systems programming language
-          that runs blazingly fast,
-          prevents segfaults,
-          and guarantees thread safety.
+          <b>Rust</b>, die systemnahe Programmiersprache,
+          die super schnell läuft,
+          Segfaults verhindert,
+          und Threadsicherheit garantiert.
           <br/>
-          <b><a href="friends.html">See who's using Rust.</a></b>
+          <b><a href="friends.html">Wer benutzt Rust?</a></b>
+          <!--
+          <a href="https://doc.rust-lang.org/book/README.html">(eng)</a>
+          <a href="https://rust-lang-de.github.io/rustbook-de/">(de)</a>
+          -->
         </p>
       </div>
       <div class="col-md-4 install-box">
         <span class="version-rec-box-inner">
-          Recommended Version:<br>
+          Empfohlene Version:<br>
           <span id="install-version"
                 data-type-linux="Linux binary"
                 data-type-windows="Windows Installer"
@@ -27,37 +31,37 @@ title: The Rust Programming Language
           </span>
         </span>
         <a class="btn btn-primary" id="inst-link"
-           href="https://static.rust-lang.org/dist/rustc-{{ site.stable }}-src.tar.gz">Install</a>
-        <a class="btn btn-default" href="install.html" role="button">Other Downloads</a>
+           href="https://static.rust-lang.org/dist/rustc-{{ site.stable }}-src.tar.gz">Installieren</a>
+        <a class="btn btn-default" href="install.html" role="button">andere Downloads</a>
       </div>
     </div>
 
     <div class="row code-row">
       <div class="col-md-4">
-      <h2>Featuring</h2>
+      <h2>Eigenschaften</h2>
       <ul class="laundry-list">
-        <li>zero-cost abstractions</li>
-        <li>move semantics</li>
-        <li>guaranteed memory safety</li>
-        <li>threads without data races</li>
-        <li>trait-based generics</li>
-        <li>pattern matching</li>
-        <li>type inference</li>
-        <li>minimal runtime</li>
-        <li>efficient C bindings</li>
+        <li>kostenfreie Abstraktionen</li>
+        <li>Move-Semantik</li>
+        <li>garantierte Speichersicherheit</li>
+        <li>Threads ohne Datenzugriffsverletzungen</li>
+        <li>Trait-basierte Generics</li>
+        <li>Pattern-Matching</li>
+        <li>Type inference</li>
+        <li>Minimale Runtime</li>
+        <li>Effiziente C Bindings</li>
       </ul>
       </div>
       <div class="col-md-8">
         <div id="active-code">
-          <button type="button" class="btn btn-primary btn-sm" id="run-code">Run</button>
+          <button type="button" class="btn btn-primary btn-sm" id="run-code">Ausführen</button>
           <div id="editor">{% include example.rs %}</div>
-          <div id="result" data-msg-running="Running...">
+          <div id="result" data-msg-running="läuft...">
             <a id="playlink"><i class="icon-link-ext"></i></a>
           </div>
         </div>
         <div id="static-code">{% include example.rs.html %}</div>
         <div class="more-examples">
-          <a href="http://rustbyexample.com/">More examples</a>
+          <a href="http://rustbyexample.com/">Mehr Beispiele</a>
         </div>
       </div>
     </div>
