@@ -1,0 +1,79 @@
+---
+layout: basic
+title: Die Programmiersprache Rust
+---
+
+    <div class="row install-row">
+      <div class="col-md-8">
+        <p class="pitch">
+          <b>Rust</b>, die systemnahe Programmiersprache,
+          die super schnell läuft,
+          Segfaults verhindert,
+          und Threadsicherheit garantiert.
+          <br/>
+          <b><a href="friends.html">Wer benutzt Rust?</a></b>
+          <!--
+          <a href="https://doc.rust-lang.org/book/README.html">(eng)</a>
+          <a href="https://rust-lang-de.github.io/rustbook-de/">(de)</a>
+          -->
+        </p>
+      </div>
+      <div class="col-md-4 install-box">
+        <span class="version-rec-box-inner">
+          Empfohlene Version:<br>
+          <span id="install-version"
+                data-type-linux="Linux binary"
+                data-type-windows="Windows Installer"
+                data-type-mac="Mac Installer"
+                data-type-source="source">
+            {{ site.stable }}
+            (<span>source</span>)
+          </span>
+        </span>
+        <a class="btn btn-primary" id="inst-link"
+           href="https://static.rust-lang.org/dist/rustc-{{ site.stable }}-src.tar.gz">Installieren</a>
+        <a class="btn btn-default" href="install.html" role="button">andere Downloads</a>
+      </div>
+    </div>
+
+    <div class="row code-row">
+      <div class="col-md-4">
+      <h2>Eigenschaften</h2>
+      <ul class="laundry-list">
+        <li>kostenfreie Abstraktionen</li>
+        <li>Move-Semantik</li>
+        <li>garantierte Speichersicherheit</li>
+        <li>Threads ohne Datenzugriffsverletzungen</li>
+        <li>Trait-basierte Generics</li>
+        <li>Pattern-Matching</li>
+        <li>Type inference</li>
+        <li>Minimale Runtime</li>
+        <li>Effiziente C Bindings</li>
+      </ul>
+      </div>
+      <div class="col-md-8">
+        <div id="active-code">
+          <button type="button" class="btn btn-primary btn-sm" id="run-code">Ausführen</button>
+          <div id="editor">{% include example.rs %}</div>
+          <div id="result" data-msg-running="läuft...">
+            <a id="playlink"><i class="icon-link-ext"></i></a>
+          </div>
+        </div>
+        <div id="static-code">{% include example.rs.html %}</div>
+        <div class="more-examples">
+          <a href="http://rustbyexample.com/">Mehr Beispiele</a>
+        </div>
+      </div>
+    </div>
+
+  <script type="text/javascript">
+    {% include include.js %}
+
+    include("https://cdn.jsdelivr.net/ace/1.1.3/noconflict/ace.js", function () {
+      include("https://cdn.jsdelivr.net/ace/1.1.3/noconflict/mode-rust.js", function () {
+        {% include editor.js %}
+      });
+    });
+
+    {% include set_platform.js %}
+  </script>
