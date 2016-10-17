@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: de-DE/default
 title: An Rust Mitwirken &mdash; übersetze Rust in andere Sprachen &middot; Die Programmiersprache Rust
 ---
 
