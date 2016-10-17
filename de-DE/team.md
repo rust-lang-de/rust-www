@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: de-DE/default
 title: Das Rust Team &middot; Die Programmiersprache Rust
 
 # map from GH username to name & irc nick (irc nick can be omitted if it
