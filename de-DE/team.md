@@ -1,6 +1,6 @@
 ---
-layout: default
-title: The Rust Team &middot; The Rust Programming Language
+layout: de-DE/default
+title: Das Rust Team &middot; Die Programmiersprache Rust
 
 # map from GH username to name & irc nick (irc nick can be omitted if it
 # matches GH).
@@ -107,44 +107,44 @@ people:
 
 # Information about each team. Omit `lead` for teams without leaders.
 teams:
-  - name: Core team
-    responsibility: "overall direction of the project, subteam leadership, cross-cutting concerns"
+  - name: Core Team
+    responsibility: "Allgemeine Richtung des Projekts, Subteam-Leitung, übergreifende Belange"
     members: [brson, alexcrichton, wycats, steveklabnik, nikomatsakis, aturon, pcwalton, erickt]
-  - name: Language design team
-    responsibility: "designing new language features"
+  - name: Language design Team
+    responsibility: "Design neuer Sprachfeatures"
     members: [eddyb, nrc, pnkfelix, nikomatsakis, aturon, withoutboats]
     lead: nikomatsakis
-  - name: Library team
-    responsibility: "the Rust standard library, rust-lang crates, conventions"
+  - name: Library Team
+    responsibility: "die Rust Standardbibliothek, rust-lang Crates, konventionen"
     members: [brson, alexcrichton, sfackler, BurntSushi, Kimundi, aturon]
     lead: aturon
-  - name: Compiler team
-    responsibility: "compiler internals, optimizations"
+  - name: Compiler Team
+    responsibility: "Compiler-Interna, Optimierungen"
     members: [arielb1, eddyb, nrc, pnkfelix, bkoropoff, nikomatsakis, aatch, dotdash, michaelwoerister, jseyfried]
     lead: nikomatsakis
   - name: Tooling and infrastructure
-    responsibility: "tool support (e.g. Cargo, rustup), CI infrastructure, etc."
+    responsibility: "Werkzeuge (u.A. Cargo, rustup), CI Infrastruktur, etc."
     members: [brson, nrc, alexcrichton, vadimcn, wycats, michaelwoerister]
     lead: alexcrichton
-  - name: Community team
-    responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
+  - name: Community Team
+    responsibility: "Koordination von Events, Outreach, Kommerzielle Nutzer, Lernmaterialien and Publicity"
     lead: erickt
     members: [brson, skade, manishearth, johannhof, steveklabnik, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, edunham]
     email: community-team@rust-lang.org
-  - name: Documentation team
-    responsibility: "ensuring Rust has fantastic documentation"
+  - name: Dokumentationsteam
+    responsibility: "sicherstellen, dass Rust eine fantastische Dokumentation hat"
     members: [steveklabnik, GuillaumeGomez, jonathandturner, peschkaj]
-  - name: Moderation team
-    responsibility: "helping uphold the <a href='https://www.rust-lang.org/conduct.html'>code of conduct</a>"
+  - name: Moderation Team
+    responsibility: "helfen beim Einhalten des <a href='https://www.rust-lang.org/conduct.html'>Verhaltenskodexes</a>"
     members: [mbrubeck, BurntSushi, manishearth, pnkfelix, niconii]
     email: rust-mods@rust-lang.org
-  - name: Style team
+  - name: Style Team
     members: [brson, japaric, joshtriplett, nrc, solson, steveklabnik, ubsan]
     lead: nrc
-    responsibility: "temporary 'strike team' charged with deciding on code style guidelines and configuring Rustfmt (process specified in <a href='https://github.com/rust-lang/rfcs/blob/master/text/1607-style-rfcs.md'>RFC 1607</a>)"
+    responsibility: "temporäres 'strike team' beauftragt mit Entscheidungen bezüglich Code Style Richtlinen und Konfiguration von Rustfmt (Prozess ist in <a href='https://github.com/rust-lang/rfcs/blob/master/text/1607-style-rfcs.md'>RFC 1607</a> spezifiziert)"
     email: style-team@rust-lang.org
-  - name: Rust team alumni
-    responsibility: "enjoying a leisurely retirement"
+  - name: Rust Team Alumni
+    responsibility: "Genießen ihren wohlverdienten Ruhestand"
     members: [Gankro, huonw]
 
 # Information on sites to get profile information from
@@ -196,26 +196,25 @@ sites:
 
 # The Rust Team
 
-The Rust project is
-[governed](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
-by a number of teams, each focused on a specific area of concern. Below are
-the rosters, in alphabetical order.
+Das Rust Projekt wird über
+[RFcs](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
+von unterschiedlichen Teams organisiert,
+jedes davon konzentriert sich auf ein bestimmtes Gebiet.
+Hier folgt ein Mitgliederverzeichnis in alphabetischer Reihenfolge.
 
-To contact a team, post your question or comment to [the Internals
-forum](https://internals.rust-lang.org/) and tag your post with the category
-corresponding to the team name. Note that security disclosures should follow
-the [Rust security disclosure process](security.html). 
+Um ein bestimmtes Team zu kontaktieren deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem dazugehörigen Team Namen
+Bitte beachte unbedingt, dass sicherheitskritische Veröffentlichungen dem [Rust security disclosure process](security.html) folgen sollten.
 
 {% for team in page.teams %}
 <section id="{{ team.name | replace:' ','-' }}">
 <h2> {{ team.name }} </h2>
 
-<strong>Responsibility</strong>: <em>{{ team.responsibility }}</em>
+<strong>Verantwortlich für</strong>: <em>{{ team.responsibility }}</em>
 
 <br />
 
 {% if team.email %}
-  <strong>Contact</strong>:
+  <strong>Kontakt</strong>:
   <a href="mailto:{{ team.email | uri_escape }}">{{ team.email }}</a>
 {% endif %}
 
