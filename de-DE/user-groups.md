@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: de-DE/default
 title: Rust Nutzergruppen &middot; Die Programmiersprache Rust
 ---
 
