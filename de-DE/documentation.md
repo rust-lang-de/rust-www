@@ -45,6 +45,9 @@ Hierfür solltest du bereits etwas Erfahrung haben.
 [Standard Library API Reference][api] (en).
 Dokumentation der Standard Bibliothek.
 
+[docs.rs].
+Dokumentation aller Crates die auf [crates.io] veröffentlicht wurden.
+
 [The Rust Reference][ref] (en).
 Rust besitzt zwar keine formale Spezifikation,
 jedoch versucht diese Referenz alle noch so kleinen Details zu beleuchten,
