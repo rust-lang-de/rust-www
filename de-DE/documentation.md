@@ -45,6 +45,9 @@ Hierfür solltest du bereits etwas Erfahrung haben.
 [Standard Library API Reference][api] (en).
 Dokumentation der Standard Bibliothek.
 
+[docs.rs].
+Dokumentation aller Crates die auf [crates.io] veröffentlicht wurden.
+
 [The Rust Reference][ref] (en).
 Rust besitzt zwar keine formale Spezifikation,
 jedoch versucht diese Referenz alle noch so kleinen Details zu beleuchten,
@@ -67,6 +70,8 @@ diversen Fehlermeldungen des Rust Compilers.
 [cargo]: http://doc.crates.io/guide.html
 [err]: https://doc.rust-lang.org/error-index.html
 [release_notes]: https://github.com/rust-lang/rust/blob/stable/RELEASES.md
+[docs.rs]: https://docs.rs
+[crates.io]: https://crates.io
 
 ## Projekt Richtlinien
 
