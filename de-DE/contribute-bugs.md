@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: de-DE/default
 title: An Rust Mitwirken &mdash; finden, betreuen und fixen von Problemen &middot; Die Programmiersprache Rust
 ---
 

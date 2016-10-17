@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: de-DE/default
 title: Die Rust Community &middot; Die Programmiersprache Rust
 ---
 
@@ -220,7 +220,7 @@ Ein Großteil der Diskussion findet aber auch auf GitHub statt:
 - Das [RFC Repository][rfcs] ist für unseren `Request for Comment` Prozess,
   Hier besprechen die Rust Community und die Teams neue Featurevorschläge bis Übereinstimmung getroffen ist.
 
-Etwa Wöchentlich produzieren die Rust Teams [reports][team_reports] zu ihrer Tätigkeit,
+Etwa wöchentlich produzieren die Rust Teams [reports][team_reports] zu ihrer Tätigkeit,
 inklusive dem Fortschritt einzelner Proposals im RFC Prozess und Implementierung.
 
 [authors]: https://github.com/rust-lang/rust/blob/88397e092e01b6043b6f65772710dfe0e59056c5/AUTHORS.txt
