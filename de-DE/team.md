@@ -132,7 +132,7 @@ teams:
     members: [brson, skade, manishearth, johannhof, steveklabnik, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, edunham]
     email: community-team@rust-lang.org
   - name: Dokumentationsteam
-    responsibility: "sicherstellen dass Rust eine fantastische Dokumentation hat"
+    responsibility: "sicherstellen, dass Rust eine fantastische Dokumentation hat"
     members: [steveklabnik, GuillaumeGomez, jonathandturner, peschkaj]
   - name: Moderation Team
     responsibility: "helfen beim Einhalten des <a href='https://www.rust-lang.org/conduct.html'>Verhaltenskodexes</a>"
@@ -202,7 +202,7 @@ von unterschiedlichen Teams organisiert,
 jedes davon konzentriert sich auf ein bestimmtes Gebiet.
 Hier folgt ein Mitgliederverzeichnis in alphabetischer Reihenfolge.
 
-Um ein bestimmtes Team zu kontaktieren schreibe deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem korrespondierenden Team Namen
+Um ein bestimmtes Team zu kontaktieren deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem dazugehörigen Team Namen
 Bitte beachte unbedingt, dass sicherheitskritische Veröffentlichungen dem [Rust security disclosure process](security.html) folgen sollten.
 
 {% for team in page.teams %}
