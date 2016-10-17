@@ -5,7 +5,7 @@ title: An Rust Mitwirken &mdash; übersetze Rust in andere Sprachen &middot; Die
 
 # Rust ist international
 
-Rusts Dokumentation und Website wurde bereits in einige Sprachen übersetzt,
+Rusts Dokumentation und Website wurden bereits in einige Sprachen übersetzt,
 aber noch nicht in alle und auch noch nicht vollständig.
 Wenn du neben Englisch oder Deutsch eine weitere Sprache beherrschst,
 dann hilf doch dabei die [Dokumentation](http://doc.rust-lang.org/), das [Buch](http://doc.rust-lang.org/book) oder diese Webseite mit zu übersetzen.
