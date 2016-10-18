@@ -1,20 +1,20 @@
 ---
 layout: faq
-title: Frequently Asked Questions &middot; The Rust Programming Language
+title: Häufig gestellte Fragen &middot; Die Programmiersprache Rust
 ---
 
-# Frequently Asked Questions
+# Häufig gestellte Fragen
 
 <p class="faq-intro">
-This page exists to answer common questions about the Rust programming language. It is not a complete guide to the language, nor is it a tool for teaching the language. It is a reference to answer oft-repeated questions people in the Rust community encounter, and to clarify the reasoning behind some of Rust's design decisions.
+Diese Seite existiert um übliche Fragen über die Rust Programmiersprache zu beantworten. Sie ist weder eine vollständige Einführung in die Sprache noch ist sie ein Werkzeug um die Sprache zu lehren. Diese Seite ist eine Referenz für Antworten auf häufig in der Rust Community auftretende Fragen und begründet einige von Rusts Designentscheidungen.
 </p>
 
 <p class="faq-intro">
-If there is some common or important question you feel is wrongly left unanswered here, feel free to <a href="https://github.com/rust-lang/rust-www/blob/master/CONTRIBUTING.md">help us fix it</a>.
+Falls du glaubst, dass noch ein paar übliche oder wichtige Fragen fehlen, dann zögere nicht <a href="https://github.com/rust-lang/rust-www/blob/master/CONTRIBUTING.md">uns zu helfen das zu beheben.</a>.
 </p>
 
 <div id="toc">
-    <h2>Table of Contents</h2><a href="#toggle-toc"></a>
+    <h2>Inhaltsverzeichnis</h2><a href="#toggle-toc"></a>
     <div class="contents">
         <ol id="toc-contents">
             <li><a href="#project">The Rust Project</a></li>
