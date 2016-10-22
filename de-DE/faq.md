@@ -180,9 +180,10 @@ Hat Rust einen Garbage Collector?
 
 Nein. Eine von Rusts Schlüsselinnovationen ist es Speichersicherheit zu garantieren (keine Segfaults mehr) *ohne* Garbage Collection zu benötigen.
 
-Durch die Vermeidung von GC kann Rust eine Reihe weiterer Vorzüge bieten: vorhersehbares Aufräumen von Ressourcen, geringerer Overhead bei der Speicherverwaltung und im Grunde kein Laufzeitsystem. Alle diese Eigenschaften machen Rust schlank, einfach in beliebige Kontexte einzubinden und viel leichter [Rust in andere Sprachen mit GC zu integrieren](http://calculist.org/blog/2015/12/23/neon-node-rust/) (en).
+Durch den Verzicht auf GC kann Rust eine Reihe weiterer Vorzüge bieten: vorhersehbares Aufräumen von Ressourcen, geringerer Overhead bei der Speicherverwaltung und im Grunde kein Laufzeitsystem.
+Alle diese Eigenschaften machen Rust sehr schlank und einfach in beliebige Kontexte einzubinden, auch [in Programmiersprachen mit Garbage Collector](http://calculist.org/blog/2015/12/23/neon-node-rust/) (en).
 
-Rust vermeidet den Bedarf an einen GC durch sein Ownership und Borrowing (Besitz und Ausleihen) System, aber dieses System hilft auch noch bei einer Reihe anderer Probleme, einschließlich der [allgemeinen Ressourcenverwaltung](http://blog.skylight.io/rust-means-never-having-to-close-a-socket/) (en) und der [Nebenläufigkeit](http://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html) (en).
+Rust benötigt keinen GC aufgrund seines Ownership und Borrowing System, aber dieses System hilft auch noch bei einer Reihe anderer Probleme, einschließlich der [allgemeinen Ressourcenverwaltung](http://blog.skylight.io/rust-means-never-having-to-close-a-socket/) (en) und der [Nebenläufigkeit](http://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html) (en).
 
 Wenn mal "single ownership" (nur ein Bisitzer) nicht ausreicht, dann stützen sich Rust Programme auf den standard Referenzzählenden Smart-Pointer Typ [`Rc`](https://doc.rust-lang.org/std/rc/struct.Rc.html) und seinem Threadicheren Gegenstück [`Arc`](https://doc.rust-lang.org/std/sync/struct.Arc.html) anstatt auf einen GC.
 
