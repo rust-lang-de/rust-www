@@ -170,9 +170,9 @@ Wie schnell ist Rust?
 
 Schnell! Rust ist in einer Reihe von Benchmarks (wie [Benchmarks Game](https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=rust&lang2=gpp) und [anderen](https://github.com/kostya/benchmarks)) bereits konkurrenzfähig zu idiomatischem C und C++.
 
-Wie auch C++ sicht Rust [kostenfreie Abstraktionen](http://blog.rust-lang.org/2015/05/11/traits.html) als eines seiner Kernprinzipien: Keine von Rusts Abstraktionen erzwingt programmweite Performanzeinbußen; es gibt auch kein Overhead duch eine Laufzeitumgebung.
+Wie auch C++ sieht Rust [kostenfreie Abstraktionen](http://blog.rust-lang.org/2015/05/11/traits.html) als eines seiner Kernprinzipien: Keine von Rusts Abstraktionen erzwingt programmweite Performanzeinbußen. Rust hat keine Laufzeitumgebung, die Overhead verusacht.
 
-Angesichts der Tatsache, dass Rust auf LLVM aufbaut und danach strebt aus LLVMs perspektive wie Clang zu wirken, hilft jede Verbesserung der Performanz in LLVM auch Rust. Auf lange Sicht sollte das informationsreichere Typsystem von Rust auch Optimierungen ermöglichen, welche nur schwer oder gar unmöglich für C/C++ Code sind.
+Angesichts der Tatsache, dass Rust auf LLVM aufbaut und versucht aus LLVMs perspektive wie Clang zu wirken, hilft jede Verbesserung der Performanz in LLVM auch Rust. Auf lange Sicht sollte das informationsreichere Typsystem von Rust auch Optimierungen ermöglichen, welche nur schwer oder gar unmöglich für C/C++ Code sind.
 
 <h3><a href="#is-rust-garbage-collected" name="is-rust-garbage-collected">
 Hat Rust einen Garbage Collector?
