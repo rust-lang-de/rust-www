@@ -6,7 +6,7 @@ Contributing to Rust &mdash; tooling, IDEs and infrastructure &middot; The Rust 
 
 # Zu Rust beitragen &mdash; Werkzeuge, IDEs und Infrastruktur
 
-Werkzeuge spielen eine große Rolle beim Erfolg einer Sprache und es gibt noch eine Menge davon zu implementieren.
+Werkzeuge spielen eine große Rolle für den Erfolg einer Sprache und es gibt noch eine Menge davon zu implementieren.
 ***Die Rust Entwicklung fokussiert sich derzeit stark auf die [Verbesserung von IDEs][ides]***. Diese Arbeit erstreckt sich über den ganzen Rust Stack, vom Compiler selbst bis hin zu deiner Lieblings-IDE. Folge dem Link für mehr Informationen.
 
 Sowohl Cargo, der Paketmanager, als auch Rustdoc, der Rust Dokumentationsgenerator,
@@ -15,7 +15,7 @@ Rustdoc hat viele offene Issues mit dem [A-rustdoc] Label im `rust-lang` Reposit
 Dies sind hauptsächlich Bugs und um zu helfen muss man lediglich einen solchen beheben und einen PullRequest einreichen.
 Cargo hat ein [eigenes Repository und eigene Issues][Cargo] und interessierte Helfer können sich im [#cargo] Channel vorstellen.
 
-Obwohl Rust sowohl unter gdb, als auch lldb einigermaßen läuft,
+Obwohl Rust sowohl unter gdb, als auch lldb ziemlich gut läuft,
 gibt es immernoch ein paar Fälle in denen das Debuggen nicht wie erwartet funktioniert.
 Das [A-debuginfo] Label wird für diese Issues verwendet.
 
