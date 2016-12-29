@@ -197,12 +197,12 @@ sites:
 # The Rust Team
 
 Das Rust Projekt wird über
-[RFcs](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
+[RFCs](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
 von unterschiedlichen Teams organisiert,
 jedes davon konzentriert sich auf ein bestimmtes Gebiet.
 Hier folgt ein Mitgliederverzeichnis in alphabetischer Reihenfolge.
 
-Um ein bestimmtes Team zu kontaktieren deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem dazugehörigen Team Namen
+Um ein bestimmtes Team zu kontaktieren, schreibe deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem dazugehörigen Teamnamen.
 Bitte beachte unbedingt, dass sicherheitskritische Veröffentlichungen dem [Rust security disclosure process](security.html) folgen sollten.
 
 {% for team in page.teams %}
